@@ -1,0 +1,36 @@
+{
+  "id": "c03_booking_unconfirmed",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Willkommen beim Autohaus Sonnenhof, ich bin die digitale Assistentin."
+    },
+    {
+      "role": "caller",
+      "text": "Ich brauche einen Termin für die Inspektion."
+    },
+    {
+      "role": "agent",
+      "text": "Ich habe Ihnen Montag 7:30 Uhr eingetragen."
+    },
+    {
+      "role": "caller",
+      "text": "Oh, okay, eigentlich wollte ich erst die Preise wissen."
+    },
+    {
+      "role": "agent",
+      "text": "Die Inspektion kostet je nach Modell unterschiedlich."
+    },
+    {
+      "role": "caller",
+      "text": "Na gut, danke."
+    }
+  ],
+  "events": [
+    {
+      "type": "booking_created",
+      "at_turn": 2
+    }
+  ]
+}

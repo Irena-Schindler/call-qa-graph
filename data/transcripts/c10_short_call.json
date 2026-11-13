@@ -1,0 +1,15 @@
+{
+  "id": "c10_short_call",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Guten Tag, hier ist die KI-Assistentin der Physiopraxis Lindenhof."
+    },
+    {
+      "role": "caller",
+      "text": "Hallo? Hallo?"
+    }
+  ],
+  "events": []
+}

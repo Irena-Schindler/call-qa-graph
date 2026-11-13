@@ -1,0 +1,27 @@
+{
+  "id": "c08_en_question_resolved",
+  "language": "en",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Hello, I'm the virtual assistant of Lindenhof Physiotherapy. How can I help?"
+    },
+    {
+      "role": "caller",
+      "text": "Do you accept private insurance?"
+    },
+    {
+      "role": "agent",
+      "text": "Yes, we accept all private insurers and self-paying patients."
+    },
+    {
+      "role": "caller",
+      "text": "Great, thank you."
+    },
+    {
+      "role": "agent",
+      "text": "You're welcome. Goodbye!"
+    }
+  ],
+  "events": []
+}

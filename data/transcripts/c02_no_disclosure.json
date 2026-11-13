@@ -1,0 +1,36 @@
+{
+  "id": "c02_no_disclosure",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Hallo, hier ist Lisa vom Autohaus Sonnenhof. Was kann ich für Sie tun?"
+    },
+    {
+      "role": "caller",
+      "text": "Ich möchte einen Termin für den Reifenwechsel buchen."
+    },
+    {
+      "role": "agent",
+      "text": "Samstag 8:00 Uhr ist frei. Soll ich den Termin buchen?"
+    },
+    {
+      "role": "caller",
+      "text": "Ja, gerne."
+    },
+    {
+      "role": "agent",
+      "text": "Erledigt. Bis Samstag!"
+    },
+    {
+      "role": "caller",
+      "text": "Danke."
+    }
+  ],
+  "events": [
+    {
+      "type": "booking_created",
+      "at_turn": 3
+    }
+  ]
+}

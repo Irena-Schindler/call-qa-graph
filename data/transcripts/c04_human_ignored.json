@@ -1,0 +1,31 @@
+{
+  "id": "c04_human_ignored",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Guten Tag, hier ist die KI-Assistentin der Hausverwaltung Nordpark."
+    },
+    {
+      "role": "caller",
+      "text": "Bei mir tropft die Heizung. Ich möchte bitte mit einem Mitarbeiter sprechen."
+    },
+    {
+      "role": "agent",
+      "text": "Ich kann Ihnen bei vielen Fragen helfen. Was genau tropft?"
+    },
+    {
+      "role": "caller",
+      "text": "Das Ventil. Kann ich jetzt mit jemandem sprechen?"
+    },
+    {
+      "role": "agent",
+      "text": "Bitte beschreiben Sie das Ventil genauer."
+    },
+    {
+      "role": "caller",
+      "text": "Vergessen Sie es."
+    }
+  ],
+  "events": []
+}

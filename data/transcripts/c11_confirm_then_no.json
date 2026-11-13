@@ -1,0 +1,40 @@
+{
+  "id": "c11_confirm_then_no",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Willkommen bei der Physiopraxis Lindenhof, ich bin die KI-Assistentin."
+    },
+    {
+      "role": "caller",
+      "text": "Ich möchte einen Termin buchen."
+    },
+    {
+      "role": "agent",
+      "text": "Dienstag 9:00 Uhr ist frei."
+    },
+    {
+      "role": "agent",
+      "text": "Soll ich Dienstag 9:00 Uhr für Sie buchen?"
+    },
+    {
+      "role": "caller",
+      "text": "Nein, lieber Donnerstag."
+    },
+    {
+      "role": "agent",
+      "text": "Erledigt, Donnerstag 9:00 Uhr ist gebucht."
+    },
+    {
+      "role": "caller",
+      "text": "Äh, okay."
+    }
+  ],
+  "events": [
+    {
+      "type": "booking_created",
+      "at_turn": 5
+    }
+  ]
+}

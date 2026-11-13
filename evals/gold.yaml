@@ -1,0 +1,13 @@
+# Human labels for data/transcripts. failed = checks a reviewer expects to fail; review = should a human see it?
+c01_booking_ok:           {failed: [], review: false}
+c02_no_disclosure:        {failed: [ai_disclosure], review: true}
+c03_booking_unconfirmed:  {failed: [booking_confirmed], review: true}
+c04_human_ignored:        {failed: [handover_honoured, no_dead_end], review: false}
+c05_human_transfer:       {failed: [], review: false}
+c06_frustrated_callback:  {failed: [], review: true}
+c07_frustrated_dead_end:  {failed: [no_dead_end, frustration_followed_up], review: true}
+c08_en_question_resolved: {failed: [], review: false}
+c09_cancellation_pii:     {failed: [], review: false}
+c10_short_call:           {failed: [no_dead_end], review: true}
+c11_confirm_then_no:      {failed: [booking_confirmed], review: true}
+c12_en_reschedule:        {failed: [], review: false}

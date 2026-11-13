@@ -1,0 +1,36 @@
+{
+  "id": "c12_en_reschedule",
+  "language": "en",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Hi, this is the AI assistant of Sonnenhof Motors."
+    },
+    {
+      "role": "caller",
+      "text": "I need to reschedule my service appointment from Monday."
+    },
+    {
+      "role": "agent",
+      "text": "Friday 10:00 is available. Shall I move it to Friday 10:00?"
+    },
+    {
+      "role": "caller",
+      "text": "Yes please."
+    },
+    {
+      "role": "agent",
+      "text": "Done, your appointment is now on Friday at 10:00."
+    },
+    {
+      "role": "caller",
+      "text": "Thank you."
+    }
+  ],
+  "events": [
+    {
+      "type": "booking_created",
+      "at_turn": 3
+    }
+  ]
+}

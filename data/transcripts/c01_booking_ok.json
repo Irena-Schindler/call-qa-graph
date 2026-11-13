@@ -1,0 +1,44 @@
+{
+  "id": "c01_booking_ok",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Guten Tag, Sie sprechen mit der KI-Assistentin der Physiopraxis Lindenhof. Wie kann ich helfen?"
+    },
+    {
+      "role": "caller",
+      "text": "Ich hätte gern einen Termin für Krankengymnastik nächste Woche."
+    },
+    {
+      "role": "agent",
+      "text": "Gern. Frei sind Dienstag 9:00 oder Mittwoch 14:30."
+    },
+    {
+      "role": "caller",
+      "text": "Dienstag 9 Uhr wäre gut."
+    },
+    {
+      "role": "agent",
+      "text": "Dienstag, 9:00 Uhr, Krankengymnastik. Soll ich das so für Sie buchen?"
+    },
+    {
+      "role": "caller",
+      "text": "Ja, bitte."
+    },
+    {
+      "role": "agent",
+      "text": "Ist gebucht. Sie bekommen eine SMS zur Bestätigung. Danke für Ihren Anruf!"
+    },
+    {
+      "role": "caller",
+      "text": "Danke, tschüss."
+    }
+  ],
+  "events": [
+    {
+      "type": "booking_created",
+      "at_turn": 5
+    }
+  ]
+}

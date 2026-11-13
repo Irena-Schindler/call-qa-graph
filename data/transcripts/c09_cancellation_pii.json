@@ -1,0 +1,23 @@
+{
+  "id": "c09_cancellation_pii",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Guten Tag, Sie sprechen mit der KI-Assistentin der Physiopraxis Lindenhof."
+    },
+    {
+      "role": "caller",
+      "text": "Ich muss meinen Termin morgen absagen. Meine Nummer ist 0151 2345 6789, Mail max.muster@example.com."
+    },
+    {
+      "role": "agent",
+      "text": "Ich habe Ihren Termin morgen um 10 Uhr gefunden und storniert."
+    },
+    {
+      "role": "caller",
+      "text": "Vielen Dank."
+    }
+  ],
+  "events": []
+}

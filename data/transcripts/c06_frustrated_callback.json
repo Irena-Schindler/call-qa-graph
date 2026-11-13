@@ -1,0 +1,32 @@
+{
+  "id": "c06_frustrated_callback",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Guten Tag, hier ist die KI-Assistentin des Möbelhauses Weidenhof."
+    },
+    {
+      "role": "caller",
+      "text": "Meine Lieferung ist schon zum dritten Mal verschoben worden. Das ist unverschämt."
+    },
+    {
+      "role": "agent",
+      "text": "Das tut mir leid. Ich lege einen Rückruf durch das Lieferteam an, heute bis 16 Uhr."
+    },
+    {
+      "role": "caller",
+      "text": "Gut, aber bitte wirklich heute."
+    },
+    {
+      "role": "agent",
+      "text": "Ist notiert. Das Lieferteam ruft Sie heute zurück."
+    }
+  ],
+  "events": [
+    {
+      "type": "callback_created",
+      "at_turn": 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "c07_frustrated_dead_end",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Guten Tag, hier ist die KI-Assistentin des Möbelhauses Weidenhof."
+    },
+    {
+      "role": "caller",
+      "text": "Ich warte seit Wochen auf mein Sofa. Das ist eine Frechheit."
+    },
+    {
+      "role": "agent",
+      "text": "Lieferzeiten finden Sie auf unserer Website."
+    },
+    {
+      "role": "caller",
+      "text": "Das hilft mir nicht."
+    },
+    {
+      "role": "agent",
+      "text": "Kann ich sonst noch etwas für Sie tun?"
+    },
+    {
+      "role": "caller",
+      "text": "Nein."
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c05_human_transfer",
+  "language": "de",
+  "turns": [
+    {
+      "role": "agent",
+      "text": "Hallo, Sie sprechen mit der KI-Assistentin der Hausverwaltung Nordpark."
+    },
+    {
+      "role": "caller",
+      "text": "Ich möchte mit einem Mitarbeiter sprechen, es geht um meine Nebenkostenabrechnung."
+    },
+    {
+      "role": "agent",
+      "text": "Verstanden, ich verbinde Sie mit der Buchhaltung."
+    },
+    {
+      "role": "caller",
+      "text": "Danke."
+    }
+  ],
+  "events": [
+    {
+      "type": "transfer",
+      "at_turn": 2
+    }
+  ]
+}
